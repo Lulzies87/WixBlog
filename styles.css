@@ -1,0 +1,186 @@
+body {
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+main {
+    padding-top: 64px;
+    background-color: #f7f7f7;
+}
+
+.upperleftlogo {
+    margin-top: 16px;
+    margin-right: 22px;
+    width: 110px;
+    height: 40px;
+    font-size: 37px;
+    text-align: left;
+    float: left;
+}
+
+.upperleftlogo.bold {
+    font-weight: bold;
+    margin-right: -34px;
+}
+
+.top-menu {
+    overflow: hidden; /* TODO: check what it does */
+    background-color: white;
+}
+
+.top-right input[type=text] {
+    font-family: 'Wix Madefor Text', sans-serif;
+    float: inline-end;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 280px;
+}
+
+input {
+    box-shadow: 0 0 8px rgb(0 0 0 / 0.2);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-top: 12px;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.top-right {
+    float: right;
+    margin-right: 30px;
+}
+
+button {
+    font-family: 'Wix Madefor Text', sans-serif;
+    border: none;
+    padding: 12px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.subscribe-btn {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.create-btn {
+    color: white;
+    background-color: #166aea;
+    width: 207px;
+    margin-left: 10px;
+}
+
+.content {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.minihead.caps {
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    word-spacing: 0.7px;
+}
+
+.minihead {
+    padding-top: 36px;
+    font-size: 14px;
+}
+
+.inlinelink.black {
+    color: black;
+}
+
+.inlinelink.black:hover {
+    color: #166aea;
+}
+
+img {
+    margin: 30px 0 20px 0;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    word-spacing: 0.7px;
+    line-height: 27px;
+}
+
+li {
+    font-size: 17px;
+    letter-spacing: 0.1px;
+    word-spacing: 0.7px;
+    line-height: 34px;
+}
+
+.inlinelink {
+    color: #166aea;
+    text-decoration: none;
+}
