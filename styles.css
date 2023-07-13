@@ -32,11 +32,11 @@ main {
 }
 
 .top-menu {
-    overflow: hidden; /* TODO: check what it does */
+    overflow: hidden;
     background-color: white;
 }
 
-.top-right input[type=text] {
+.header-right input[type=text] {
     font-family: 'Wix Madefor Text', sans-serif;
     float: inline-end;
     padding: 6px;
@@ -94,7 +94,7 @@ input {
     display: block;
 }
 
-.top-right {
+.header-right {
     float: right;
     margin-right: 30px;
 }
